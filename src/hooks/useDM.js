@@ -1,7 +1,7 @@
 import { useLS } from './useLS';
 import { useEffect } from 'react';
 
-export const useDM = (bool) => {
+export const useDarkMode = (bool) => {
     const [darkMode, setDarkMode] = useLS('dark-mode', bool);
 
     useEffect(() => {
